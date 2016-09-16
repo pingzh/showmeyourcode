@@ -4,5 +4,9 @@
         "code-editor",
         "codeblock-filename"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "https-pingzh-gitbooks-io-showmeyourcode-content"
+        }
+    }
 }
