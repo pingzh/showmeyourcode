@@ -1,4 +1,6 @@
 {
+    "author": "Ping Zhang <pingzh@umich.edu",
+    "description": "Talk is cheap, show me your code!",
     "plugins": [
         "disqus",
         "code-editor",
@@ -8,5 +10,6 @@
         "disqus": {
             "shortName": "https-pingzh-gitbooks-io-showmeyourcode-content"
         }
-    }
+    },
+    "title": "Show Me Your Code"
 }
