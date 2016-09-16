@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "disqus"
+        "disqus",
+        "code-editor"
     ],
     "pluginsConfig": {}
 }
