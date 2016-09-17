@@ -5,7 +5,8 @@
         "disqus",
         "code-editor",
         "multipart",
-        "codeblock-filename"
+        "codeblock-filename",
+        "ace"
     ],
     "pluginsConfig": {
         "disqus": {
