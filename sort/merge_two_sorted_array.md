@@ -19,8 +19,9 @@ mergeSortedArray:
 
 
 
+```
 
-{%ace edit=true, lang='java'%}
+{%ace lang='java'%}
 public void merge(int[] nums1, int m, int[] nums2, int n) {
     int num1Tail = m - 1;
     int num2Tail = n - 1;
@@ -41,3 +42,4 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
     }
 }
 {%endace%}
+```
