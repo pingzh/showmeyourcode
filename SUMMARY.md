@@ -21,5 +21,5 @@
    * __2.7__. Greedy
    * __2.8__. Depth First Search
    * __2.9__. Breadth First Search
-* __3__. To Be Continue
+* [__3__. To Be Continue](3__to_be_continue.md)
 
