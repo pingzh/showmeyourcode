@@ -30,6 +30,7 @@
 
 ## Part 2 - Algorithm
 * Sort
+    * Largest number from numbers array
 * Binary Search
 * Recursion
 * Divide And Conquer
