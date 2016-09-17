@@ -7,7 +7,7 @@
 * [__1.4__. Queue](Queue/1_4_queue.md)
 * [__1.5__. Set](Set/1_5_set.md)
 * [__1.6__. Map](Map/1_6_map.md)
-* __1.7__. Tree
+* [__1.7__. Tree](Tree/1_7_tree.md)
 * [__1__. Sort](2_1_sort.md)
    * [__1.1__. Largest Number From Numbers Array](Sort/largest_number_from_numbers_array.md)
    * [__1.2__. Merge Two Sorted Array](Sort/merge_two_sorted_array.md)
