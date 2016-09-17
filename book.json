@@ -4,6 +4,7 @@
     "plugins": [
         "disqus",
         "code-editor",
+        "multipart",
         "codeblock-filename"
     ],
     "pluginsConfig": {
