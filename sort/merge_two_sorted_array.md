@@ -1,4 +1,4 @@
-# Merge two sorted array
+# Merge Two Sorted Array
 
 ### Question:
 
