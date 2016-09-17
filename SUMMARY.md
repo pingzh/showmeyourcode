@@ -1,7 +1,5 @@
 # Summary
 
-* [Show Me Your Code](README.md)
-
 ## Part I Data Structure
 
  * __1.1__. Array
