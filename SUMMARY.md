@@ -6,7 +6,7 @@
 * [__1.3__. String](String/1_3_string.md)
 * [__1.4__. Queue](Queue/1_4_queue.md)
 * [__1.5__. Set](Set/1_5_set.md)
-* __1.6__. Map
+* [__1.6__. Map](Map/1_6_map.md)
 * __1.7__. Tree
 * [__1__. Sort](2_1_sort.md)
    * [__1.1__. Largest Number From Numbers Array](Sort/largest_number_from_numbers_array.md)
