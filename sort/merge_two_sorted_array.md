@@ -16,6 +16,7 @@ Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from rig
 mergeSortedArray:
 
 ![](mergesortedarray.png)
+
 ---
 
 ### Show me your code:
