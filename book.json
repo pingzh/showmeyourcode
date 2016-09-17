@@ -4,6 +4,7 @@
     "plugins": [
         "disqus",
         "code-editor",
+        "multipart",
         "collapsible-menu",
         "codeblock-filename",
         "ace"
