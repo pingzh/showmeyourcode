@@ -14,3 +14,27 @@ Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from rig
 mergeSortedArray:
 
 ![](mergesortedarray.png)
+
+### Show me your code:
+
+```
+public void merge(int[] nums1, int m, int[] nums2, int n) {
+    int num1Tail = m - 1;
+    int num2Tail = n - 1;
+    int newTail = m + n - 1;
+
+    while(num2Tail >= 0) {
+    //as long as there are still elements in nums2, keep looping!
+    //And make sure check num1Tail >= 0
+        if(num1Tail >= 0 && nums1[num1Tail] > nums2[num2Tail]) {
+            nums1[newTail] = nums1[num1Tail];
+            num1Tail--;
+        }
+        else {
+            nums1[newTail] = nums2[num2Tail];
+            num2Tail--;
+        }
+        newTail--;
+    }
+}
+```
