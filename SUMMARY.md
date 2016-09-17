@@ -12,8 +12,8 @@
 
 ## Part II Algorithm
 * [__1__. Sort](2_1_sort.md)
-    * [__1.1__. Largest Number From Numbers Array](sort/largest_number_from_numbers_array.md)
-    * [__1.2__. Merge Two Sorted Array](sort/merge_two_sorted_array.md)
+    * [__1.1__. Largest Number From Numbers Array](Sort/largest_number_from_numbers_array.md)
+    * [__1.2__. Merge Two Sorted Array](Sort/merge_two_sorted_array.md)
 * __2__. Binary Search
 * __3__. Recursion
 * __4__. Divide And Conquer
