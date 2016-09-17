@@ -7,6 +7,8 @@ Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one s
 Note:
 nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2. The number of elements initialized in nums1 and nums2 are m and n respectively.
 
+---
+
 ### Method: 
 
 Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from right to left.
@@ -14,10 +16,9 @@ Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from rig
 mergeSortedArray:
 
 ![](mergesortedarray.png)
+---
 
 ### Show me your code:
-
-
 
 
 
