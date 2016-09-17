@@ -6,7 +6,8 @@
         "code-editor",
         "multipart",
         "codeblock-filename",
-        "ace"
+        "ace",
+        "collapsible-chapters"
     ],
     "pluginsConfig": {
         "disqus": {
