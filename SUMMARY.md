@@ -26,7 +26,7 @@
    * Did you know?
    * Oh yes
 * Sort
-   * [Largest number from numbers array](largest_number_from_numbers_array.md)
+   * [Largest number from numbers array](./sort/largest_number_from_numbers_array.md)
 * Binary Search
 * Recursion
 * Divide And Conquer
