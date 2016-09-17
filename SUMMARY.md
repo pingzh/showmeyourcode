@@ -9,7 +9,7 @@
    * __1.5__. Set
    * __1.6__. Map
    * __1.7__. Tree
-* __2__. Algorithm
+* [__2__. Algorithm](2__algorithm.md)
    * __2.1__. Sort
        * [__2.1.1__.Largest Number From Numbers Array](sort/largest_number_from_numbers_array.md)
        * [__2.1.2__.Merge Two Sorted Array](sort/merge_two_sorted_array.md)
