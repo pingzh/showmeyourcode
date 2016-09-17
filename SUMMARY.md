@@ -1,7 +1,7 @@
 # Summary
 
 * [Show Me Your Code](README.md)
-* [__1__. Introduction]()
+* [__1__. Data Structure]()
    * [__1.1__. Array]()
    * [__1.2__. Linked List]()
    * [__1.3__. String]()
