@@ -4,13 +4,13 @@
 
 ## Part I Data Structure
 
-* [__1__. Array](Array/1_1_array.md)
-* [__2__. Linked List](LinkedList/12_linked_list_md.md)
-* [__3__. String](String/1_3_string.md)
-* [__4__. Queue](Queue/1_4_queue.md)
-* [__5__. Set](Set/1_5_set.md)
-* [__6__. Map](Map/1_6_map.md)
-* [__7__. Tree](Tree/1_7_tree.md)
+* [__1__. Array](Array/1_array.md)
+* [__2__. Linked List](LinkedList/2_linked_list_md.md)
+* [__3__. String](String/3_string.md)
+* [__4__. Queue](Queue/4_queue.md)
+* [__5__. Set](Set/5_set.md)
+* [__6__. Map](Map/6_map.md)
+* [__7__. Tree](Tree/7_tree.md)
 
 ## Part II Algorithm
 
