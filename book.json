@@ -5,6 +5,7 @@
         "disqus",
         "code-editor",
         "multipart",
+        "collapsible-menu",
         "codeblock-filename"
     ],
     "pluginsConfig": {
