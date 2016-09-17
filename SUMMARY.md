@@ -27,7 +27,7 @@
    * Oh yes
 * Sort
    * [Largest number from numbers array](sort/largest_number_from_numbers_array.md)
-   * a
+   * Merge two sorted array
 * Binary Search
 * Recursion
 * Divide And Conquer
