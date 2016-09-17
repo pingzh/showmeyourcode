@@ -16,6 +16,13 @@ For example, if the given numbers are [54, 546, 548, 60], the arrangement 605485
 
 ### Show Me Your Code:
 
+{%ace lang='ruby'%}
+
+def combine_number(numbers)
+end
+
+{%endace%}
+
 
 
 
