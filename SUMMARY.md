@@ -1,36 +1,32 @@
 # Summary
 
-# Show Me Your Code
-
-## Part I - Data Structure
+* [Introduction](README.md)
 * Array
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
 * Linked List
-    * Did you know?
-    * Oh yes
-*  String
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
+* String
+   * Did you know?
+   * Oh yes
 * Stack
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
 * Queue
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
 * Set
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
 * Map
-    * Did you know?
-    * Oh yes
+   * Did you know?
+   * Oh yes
 * Tree
-    * Did you know?
-    * Oh yes
-
-## Part 2 - Algorithm
+   * Did you know?
+   * Oh yes
 * Sort
-    * Largest number from numbers array
+   * [Largest number from numbers array](largest_number_from_numbers_array.md)
 * Binary Search
 * Recursion
 * Divide And Conquer
@@ -39,5 +35,5 @@
 * Greedy
 * Depth First Search
 * Breadth First Search
-## Part 3 - Design
 * To Be Continue
+
