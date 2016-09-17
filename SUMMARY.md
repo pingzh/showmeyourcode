@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [__1.1__. Array](Array/1_1_array.md)
-* __1.2__. Linked List
+* [__1.2__. Linked List](Array/1_2_linked_list.md)
 * __1.3__. String
 * __1.4__. Queue
 * __1.5__. Set
