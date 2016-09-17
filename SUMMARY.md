@@ -4,7 +4,7 @@
 * [__1.1__. Array](Array/1_1_array.md)
 * [__1.2__. Linked List](LinkedList/12_linked_list_md.md)
 * [__1.3__. String](String/1_3_string.md)
-* __1.4__. Queue
+* [__1.4__. Queue](Queue/1_4_queue.md)
 * __1.5__. Set
 * __1.6__. Map
 * __1.7__. Tree
