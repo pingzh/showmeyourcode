@@ -1,4 +1,4 @@
-# Largest number from numbers array
+# Largest Number From Numbers Array
 
 Given an array of numbers, arrange them in a way that yields the largest value. 
 
