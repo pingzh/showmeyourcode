@@ -1,3 +1,3 @@
 # Talk Is Cheap, Show Me Your Code
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+I will keep posting new contents, please subscribe my gitbook: https://www.gitbook.com/book/pingzh/showmeyourcode/details
