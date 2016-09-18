@@ -26,7 +26,7 @@
 * [__8__. Depth First Search](DepthFirstSearch/depth_first_search.md)
 * [__9__. Breadth First Search](BreadthFirstSearch/breadth_first_search.md)
 
-## Part II To Be Continue
+## Part III To Be Continue
 
 * [__1__. To Be Continue](3__to_be_continue.md)
 
