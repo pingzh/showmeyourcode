@@ -9,7 +9,7 @@ nums1 has enough space (size that is greater or equal to m + n) to hold addition
 
 ---
 
-### Method: 
+### Method:
 
 Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from right to left.
 
@@ -21,7 +21,30 @@ mergeSortedArray:
 
 ### Show me your code:
 
+##### CPP
 
+{%ace lang='c_cpp'%}
+void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    int new_tail = m + n - 1;
+    int nums1_index = m - 1;
+    int nums2_index = n - 1;
+    while(nums2_index >= 0) {
+        //as long as there are still elements in nums2, keep looping!
+        //And make sure check num1Tail >= 0
+        if(nums1_index >= 0 && nums1[nums1_index] > nums2[nums2_index]) {
+            nums1[new_tail] = nums1[nums1_index];
+            nums1_index--;
+        }
+        else {
+            nums1[new_tail] = nums2[nums2_index];
+            nums2_index--;
+        }
+        new_tail--;
+    }
+}
+{%endace%}
+
+##### Java
 
 {%ace lang='java'%}
 
@@ -44,5 +67,35 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
         newTail--;
     }
 }
+
+{%endace%}
+
+##### Javascript
+
+{%ace lang='javascript'%}
+
+/**
+ * @param {number[]} nums1
+ * @param {number} m
+ * @param {number[]} nums2
+ * @param {number} n
+ * @return {void} Do not return anything, modify nums1 in-place instead.
+ */
+var merge = function(nums1, m, nums2, n) {
+    var nums1_index = m - 1;
+    var nums2_index = n - 1;
+    var new_tail = m + n - 1;
+    while(nums2_index >= 0) {
+        if(nums1_index >= 0 && nums1[nums1_index] > nums2[nums2_index]) {
+            nums1[new_tail] = nums1[nums1_index];
+            nums1_index--;
+        }
+        else {
+            nums1[new_tail] = nums2[nums2_index];
+            nums2_index--;
+        }
+        new_tail--;
+    }
+};
 
 {%endace%}
