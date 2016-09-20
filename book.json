@@ -6,7 +6,6 @@
         "code-editor",
         "multipart",
         "codeblock-filename",
-        "ace",
         "collapsible-chapters"
     ],
     "pluginsConfig": {

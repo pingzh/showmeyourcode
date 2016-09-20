@@ -39,8 +39,7 @@ with a customized comparator.
 
 ##### CPP Code
 
-{%ace lang='c_cpp'%}
-
+```cpp
 static bool my_comparator (int number1,int number2) {
     string number1_str = to_string(number1);
     string number2_str = to_string(number2);
@@ -54,14 +53,12 @@ string combine_number(vector<int>& nums) {
     }
     return result;
 }
-
-{%endace%}
+```
 
 
 ##### Ruby Code
 
-{%ace lang='ruby'%}
-
+```ruby
 def combine_number(numbers)
   numbers_in_str = numbers.map(&:to_s) # convert number to string
   sorted_numbers = numbers_in_str.sort do |number1, number2|
@@ -69,12 +66,11 @@ def combine_number(numbers)
   end
   sorted_numbers.join
 end
-{%endace%}
+```
 
 ##### Javascript Code
 
-{%ace lang='javascript'%}
-
+```javascript
 var combineNumber = function(nums) {
     var numsInStr = nums.map(function(n) { return n.toString(); });
     var sortedNums = numsInStr.sort(function(n1, n2) {
@@ -87,6 +83,4 @@ var combineNumber = function(nums) {
     });
     return sortedNums.join("");
 }
-{%endace%}
-
-
+```

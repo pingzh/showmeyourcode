@@ -21,9 +21,9 @@ mergeSortedArray:
 
 ### Show me your code:
 
-##### CPP
+##### CPP Code
 
-{%ace lang='c_cpp'%}
+```cpp
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     int new_tail = m + n - 1;
     int nums1_index = m - 1;
@@ -42,12 +42,11 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         new_tail--;
     }
 }
-{%endace%}
+```
 
-##### Java
+##### Java Code
 
-{%ace lang='java'%}
-
+```java
 public void merge(int[] nums1, int m, int[] nums2, int n) {
     int num1Tail = m - 1;
     int num2Tail = n - 1;
@@ -67,13 +66,11 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
         newTail--;
     }
 }
+```
 
-{%endace%}
+##### Javascript Code
 
-##### Javascript
-
-{%ace lang='javascript'%}
-
+```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -97,5 +94,5 @@ var merge = function(nums1, m, nums2, n) {
         new_tail--;
     }
 };
+```
 
-{%endace%}
