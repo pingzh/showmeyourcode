@@ -5,6 +5,7 @@
 ## Part I Data Structure
 
 * [__1__. Array](Array/array.md)
+   * [__1.1__. Two Sum Problem](Array/two_sum_problem.md)
 * [__2__. Linked List](LinkedList/linked_list_md.md)
 * [__3__. String](String/string.md)
 * [__4__. Queue](Queue/queue.md)
