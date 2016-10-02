@@ -6,11 +6,15 @@
         "code-editor",
         "multipart",
         "codeblock-filename",
+        "ga",
         "collapsible-chapters"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "https-pingzh-gitbooks-io-showmeyourcode-content"
+        },
+        "ga": {
+            "token": "UA-84642254-2"
         }
     },
     "title": "Show Me Your Code"
