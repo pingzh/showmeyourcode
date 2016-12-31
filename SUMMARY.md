@@ -22,6 +22,7 @@
 * [__3__. Recursion](Recursion/recursion.md)
 * [__4__. Divide And Conquer](DivideAndConquer/divide_and_conquer.md)
 * [__5__. Dynamic Programming](DynamicProgramming/dynamic_programming.md)
+   * [__5.1__. Unique Path](DynamicProgramming/unique_path.md)
 * [__6__. Backtracking](Backtracking/bracktracking.md)
 * [__7__. Greedy](Greedy/greedy.md)
 * [__8__. Depth First Search](DepthFirstSearch/depth_first_search.md)
