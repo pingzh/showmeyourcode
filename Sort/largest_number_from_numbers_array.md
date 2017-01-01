@@ -8,7 +8,7 @@ For example, if the given numbers are [54, 546, 548, 60], the arrangement 605485
 
 ---
 
-### Method:
+### Think out loud:
 
 Let us start with a simple case, assuming the numbers are only single digits.
 Then the answer is straightforward, sort the array in descending order and then combine all numbers

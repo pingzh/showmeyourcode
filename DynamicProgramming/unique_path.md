@@ -17,7 +17,7 @@ How many possible unique paths are there?
 
 ---
 
-### Method:
+### Think out loud:
 
 **Method 1:** We can solve this problem with simple math skill. The requirement is that you can only move either down or right at any point. So it requires exact **(m + n)** steps from **S** to **D** and **n** out of **(m + n)** steps go down. Thus, the answer is **C(m + n, n)**. 
 

@@ -16,7 +16,7 @@ return [0, 1].
 
 ---
 
-### Method:
+### Think out loud:
 
 **Method 1**: You can easily solve this problem by having two for loops. Get the first value from
 outer loop and the second value from the inner value and check the sum.
