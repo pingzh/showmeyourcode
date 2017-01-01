@@ -79,15 +79,14 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function(nums1, m, nums2, n) {
-    var nums1_index = m - 1;
-    var nums2_index = n - 1;
-    var new_tail = m + n - 1;
-    while(nums2_index >= 0) {
-        if(nums1_index >= 0 && nums1[nums1_index] > nums2[nums2_index]) {
+    const nums1_index = m - 1;
+    const nums2_index = n - 1;
+    const new_tail = m + n - 1;
+    while (nums2_index >= 0) {
+        if (nums1_index >= 0 && nums1[nums1_index] > nums2[nums2_index]) {
             nums1[new_tail] = nums1[nums1_index];
             nums1_index--;
-        }
-        else {
+        } else {
             nums1[new_tail] = nums2[nums2_index];
             nums2_index--;
         }

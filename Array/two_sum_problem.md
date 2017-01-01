@@ -87,7 +87,7 @@ vector<int> two_sum(vector<int> &numbers, int target) {
 
 ```javascript
 var twoSum = function(nums, target) {
-    var valueIndexHash = nums.reduce((previsouValue, currentValue, index) => {
+    const valueIndexHash = nums.reduce((previsouValue, currentValue, index) => {
         previsouValue[currentValue] = index;
         return previsouValue;
     }, {});

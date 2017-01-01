@@ -72,8 +72,8 @@ end
 
 ```javascript
 var combineNumber = function(nums) {
-    var numsInStr = nums.map(function(n) { return n.toString(); });
-    var sortedNums = numsInStr.sort(function(n1, n2) {
+    const numsInStr = nums.map(n => n.toString());
+    const sortedNums = numsInStr.sort((n1, n2) => {
         var n1N2 = n1 + n2;
         var n2N1 = n2 + n1;
         if(n1N2 === n2N1) {

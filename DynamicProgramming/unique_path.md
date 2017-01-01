@@ -85,7 +85,7 @@ const createTwoDimenssionsArray = function createTwoDimenssionsArray(row, col, d
 	});
 };
 // with 2D array
-const uniquePaths = function(m, n) {
+var uniquePaths = function(m, n) {
 	if (m == 0 || n == 0) {
 		return 0;
 	}
@@ -100,7 +100,7 @@ const uniquePaths = function(m, n) {
 };
 
 // with 1D array
-const uniquePaths = function(m, n) {
+var uniquePaths = function(m, n) {
 	if (m == 0 || n == 0) {
 		return 0;
 	}
