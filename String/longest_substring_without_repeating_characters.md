@@ -76,3 +76,24 @@ var lengthOfLongestSubstring = function(s) {
 };
 ```
 
+##### cpp
+```cpp
+ int lengthOfLongestSubstring(string s) {
+     if(s.size() <= 1)
+         return s.size();
+     
+     unordered_map<int, int> value_idx_hash;//key is element, val is its index;
+     int startIdx = 0;
+     int longest = 0;
+    
+     for(int i = 0; i < s.size(); i++){
+        if(value_idx_hash.find(s[i]) != value_idx_hash.end()){
+            startIdx = max(startIdx, value_idx_hash[s[i]]+1);
+        }
+        value_idx_hash[s[i]] = i;
+        
+        longest = max(longest, i - startIdx + 1);
+     }
+     return longest;
+ }
+```
