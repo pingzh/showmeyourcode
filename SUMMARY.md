@@ -8,6 +8,7 @@
    * [__1.1__. Two Sum Problem](Array/two_sum_problem.md)
 * [__2__. Linked List](LinkedList/linked_list_md.md)
 * [__3__. String](String/string.md)
+   * [__3.1__. Longest Substring Without Repeating Characters](String/longest_substring_without_repeating_characters.md)
 * [__4__. Queue](Queue/queue.md)
 * [__5__. Set](Set/set.md)
 * [__6__. Map](Map/map.md)
