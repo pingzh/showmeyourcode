@@ -14,7 +14,7 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of `3`. Note that the a
 
 ---
 
-### Think out loud:
+### Think Out Loud:
 
 We want to find the longest substring without repeating characters. The first thing comes to my mind is that we need a hash table to store every character in a substring so that when a new character comes in, we can easily know whether this character is already in the substring or not. I call it as `valueIdxHash`.  Then,  a substring has a `startIdx` and `endIdx`. So we need a variable to keep track of the starting index of a substring and I call it as `startIdx`.  Let's assume we are at index `i` and we already have a substring `(startIdx, i - 1)`. Now, we want to check whether this substring can keep growing or not. 
 

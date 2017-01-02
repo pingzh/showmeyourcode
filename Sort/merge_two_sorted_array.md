@@ -9,7 +9,7 @@ nums1 has enough space (size that is greater or equal to m + n) to hold addition
 
 ---
 
-### Think out loud:
+### Think Out Loud:
 
 Since nums1 has enough space to hold nums1 and nums2. We can fill nums1 from right to left.
 

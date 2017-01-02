@@ -17,7 +17,7 @@ An obstacle and empty space is marked as 1 and 0 respectively in the grid.
 
 ---
 
-### Think out loud:
+### Think Out Loud:
 
 This is a typical dynamic programming problem. Let us assume the robot is standing at `(i, j)`. How did the robot arrive at `(i, j)`? The robot could move down from `(i - 1, j)` or move right from `(i, j - 1)`. So the path to `(i, j)` is equal to the sum of path to `(i - 1, j)` and path to  `(i, j - 1)`. But remember if there is an obstacle in `(i, j)`, the path to `(i, j)` will be zero since it unreachable. We can use another 2D array to store the path to all node and use the equation below:
 
